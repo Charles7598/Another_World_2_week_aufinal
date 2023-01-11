@@ -120,6 +120,7 @@ MonoBehaviour:
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
   controlID: 48
+  controlID: 69
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,6 +171,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 65
+  controlID: 26
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,6 +252,7 @@ MonoBehaviour:
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
   controlID: 50
+  controlID: 71
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -261,6 +264,7 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -272,12 +276,17 @@ MonoBehaviour:
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
   - {fileID: 21}
   - {fileID: 22}
   m_Selected: 1
   m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,6 +334,8 @@ MonoBehaviour:
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -360,6 +371,7 @@ MonoBehaviour:
     m_SaveData: []
   _data:
     _json: '{"locked":false,"graphInspectorEnabled":true,"variablesInspectorEnabled":true,"isActive":true,"referenceData":{"rootObjectInstanceID":23274,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Unity.VisualScripting.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Unity.VisualScripting.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":1427.0,"yMin":709.0,"xMax":1618.0,"yMax":999.0},"saveChangesMessage":"Unity.VisualScripting.GraphWindow
+    _json: '{"locked":false,"graphInspectorEnabled":true,"variablesInspectorEnabled":true,"isActive":true,"referenceData":{"rootObjectInstanceID":23338,"parentElementGuids":[]},"sidebars":{"left":{"size":335.0,"scroll":{"x":0.0,"y":0.0}},"right":{"size":300.0,"scroll":{"x":0.0,"y":0.0}},"panels":[{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Unity.VisualScripting.GraphInspectorPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}},{"height":200.0,"anchor":"Left","order":0,"controlHint":{"$content":"Unity.VisualScripting.VariablesPanel","$type":"System.RuntimeType"},"scroll":{"x":0.0,"y":0.0}}]},"reliablePosition":{"xMin":1427.0,"yMin":709.0,"xMax":1618.0,"yMax":999.0},"saveChangesMessage":"Unity.VisualScripting.GraphWindow
       has unsaved changes.","m_MinSize":{"x":100.0,"y":100.0},"m_MaxSize":{"x":4000.0,"y":4000.0},"m_TitleContent":{"m_Text":"Script
       Graph","m_Image":null,"m_Tooltip":""},"m_Pos":{"xMin":1427.0,"yMin":709.0,"xMax":1618.0,"yMax":999.0},"m_ViewDataDictionary":null,"m_OverlayCanvas":{"destinationMarker":null,"m_LastAppliedPresetName":"Default","m_SaveData":[]}}'
     _objectReferences: []
@@ -398,10 +410,13 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 0ad4ffffeaebffff2aedffff68f5ffff24faffffb25a0000505b0000
+      m_ExpandedIDs: f6ddffff02f6ffff04faffff8e5b0000265c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: RespawnPoint
         m_OriginalName: RespawnPoint
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
@@ -409,9 +424,11 @@ MonoBehaviour:
           width: 0
           height: 0
         m_UserData: 23164
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -648,8 +665,10 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_Position:
     m_Target: {x: -13.97884, y: -23.279655, z: -74.72912}
+    m_Target: {x: 9.419632, y: 17.75372, z: -77.87498}
     speed: 2
     m_Value: {x: -13.97884, y: -23.279655, z: -74.72912}
+    m_Value: {x: 9.419632, y: 17.75372, z: -77.87498}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -697,12 +716,16 @@ MonoBehaviour:
     m_gridOpacity: 0.5
   m_Rotation:
     m_Target: {x: 0.35750544, y: -0.61093104, z: 0.3590428, w: 0.6083722}
+    m_Target: {x: 0.49791113, y: -0.50211567, z: 0.5015279, w: 0.49851084}
     speed: 2
     m_Value: {x: 0.3580301, y: -0.60999477, z: 0.35849264, w: 0.60926497}
+    m_Value: {x: 0.49713868, y: -0.502843, z: 0.5022544, w: 0.49773747}
   m_Size:
     m_Target: 52.116474
+    m_Target: 19.956137
     speed: 2
     m_Value: 49.872223
+    m_Value: 19.956137
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -959,12 +982,14 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
     - Assets
+    - Assets/Script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets
+  - Assets/Script
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Logosh\Desktop\ENCORE UN REPO\Another_World_2_week_aufinal
   m_LockTracker:
@@ -974,6 +999,9 @@ MonoBehaviour:
     m_SelectedIDs: 96740000
     m_LastClickedID: 29846
     m_ExpandedIDs: 0000000096740000327500005c75000000ca9a3b
+    m_SelectedIDs: 82750000
+    m_LastClickedID: 30082
+    m_ExpandedIDs: 00000000e674000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1002,6 +1030,7 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: 0000000096740000
+    m_ExpandedIDs: 00000000e6740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1054,6 +1083,7 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 41}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 228

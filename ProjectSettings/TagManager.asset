@@ -21,13 +21,13 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - floor
   - Water
   - UI
   - Obstacles
   - Targets
   - 
-  - 
+  - Player
   - 
   - 
   - 
